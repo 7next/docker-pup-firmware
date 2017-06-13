@@ -20,4 +20,4 @@ RUN apt-get install -y git-core gnupg flex bison gperf libsdl1.2-dev \
 RUN mkdir data 
 
 RUN git clone https://github.com/TeeFirefly/rk2918_tools.git
-RUN cd /rk2918_tools && cp afptool img_unpack img_maker mkkrnlimg /usr/local/bin && 
+RUN cd /rk2918_tools && make && cp afptool img_unpack img_maker mkkrnlimg /usr/local/bin && 
