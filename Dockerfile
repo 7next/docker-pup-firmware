@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER 7next
+MAINTAINER thibaut.mottet@pupscan.com
 
 
 RUN apt-get update 
