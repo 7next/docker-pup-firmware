@@ -15,7 +15,7 @@ RUN apt-get install -y git-core gnupg flex bison gperf libsdl1.2-dev \
  libncurses5-dev zlib1g-dev pngcrush schedtool libxml2 libxml2-utils \
  xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev \
  lib32readline-gplv2-dev gcc-multilib libswitch-perl \
- libssl1.0.0 libssl-dev bc wget nano
+ libssl1.0.0 libssl-dev bc wget nano swig
 
 RUN mkdir data 
 
